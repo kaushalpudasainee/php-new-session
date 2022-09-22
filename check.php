@@ -3,7 +3,7 @@
     if($_SERVER['REQUEST_METHOD']==='POST'){
         $email=$_POST['email'];
         $password=$_POST['pass'];
-        if($email==="aayush@gmail.com" && $password="12345"){
+        if($email==="kaushalpudasinee@gmailc.com" && $password="12345"){
             $_SESSION['isloggedIn']=true;
             header("location:welcome.php");
         }else{
